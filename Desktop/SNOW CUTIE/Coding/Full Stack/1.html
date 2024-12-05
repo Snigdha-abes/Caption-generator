@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Array Methods</h1>
+    <h3>1. Creating an array</h3>
+    <p id="t1">
+        <script>
+            var names = ['Jack', 'John', 'Peter', 'Paul']; 
+            document.getElementById("t1").innerHTML = names[2];
+        </script>
+    </p>
+    <p id="t2">
+        <script>
+        document.getElementById("t2").innerHTML = names.length;
+        alert(names.push("Smith"));
+        alert(names);
+        alert(names.pop())
+        alert(names);
+    </script>     
+    </p>
+    <p id ="t3">
+        <script>
+    //     names.shift(); 
+    //   document.getElementById('t3').innerHTML=names;
+    //   names.unshift("Snow");
+    //   document.getElementById('t3').innerHTML=names;
+      names.splice(2,0,"Paul","Tom");
+      alert(names);
+      
+    </script>
+    </p>
+</body>
+</html>

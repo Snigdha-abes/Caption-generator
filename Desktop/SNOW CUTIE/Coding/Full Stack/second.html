@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center> Array Methods</center>
+    Original Array: <p id="p1">
+        <form>
+            <input type="button" , value="Insert at beg", onclick="f1()">
+            <input type="button" , value="Insert at end", onclick="f2()">
+            <input type="button" , value="Insert at middle", onclick="f3()">
+            <input type="button" , value="delete from middle", onclick="f4()">
+            <input type="button" , value="delete from beg", onclick="f5()">
+            <input type="button" , value="delete from end", onclick="f6()">
+            <script>
+                const arr=[25,40,50,80,12 ,23]
+                document.getElementById('p1').innerHTML=arr;
+                function f1(){
+                  let a=prompt("Enter the element to be inserted at the beginning: ")
+                    arr.unshift(a);
+                    alert ("updated array is : " +arr);
+                }
+                function f2(){
+                    let b=prompt("Enter the element to be inserted at the last: ")
+                    arr.push(b);
+                    alert ("updated array is : " +arr);
+                    }
+                    function f3(){
+                        let c=prompt("Enter the element to be inserted at the specific position: ")
+                        let d=prompt("Enter the position where you want to insert")
+                    arr.splice(d,0,c);
+                    alert ("updated array is : " +arr);
+                    }
+                    function f4(){
+                        let d=prompt("Enter the position  from where you want to delete")
+                    arr.splice(d,1);
+                    alert ("updated array is : " +arr);
+
+                    }
+                    function f5(){
+                        
+                        arr.shift();
+                        alert ("updated array is : " +arr);
+                    }
+                    function f6(){
+                       
+                        arr.pop();
+                        alert ("updated array is : " +arr);
+
+                    }
+
+
+
+            </script>
+        </form>
+
+    </p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+GIT COMMANDS:-(hyphen se phle space)
+-> git --version , git init; Git Configuration:-   git config --global user.name "Snigdha Sharma" , git config --global user.email "xyz@gmail.com"  , git config --list.
+
+->.git created 4 folders: 1-hooks 2-info 3-objexts 4-refs and 3 files:- ->config  ->description  --> Head
+
+ES-6:-
+Let and const, arrow function, spreading, destructuring, map and set, template literal, default parameter, filter,map,reduce,promise.
+
+Promise uses three states:- resolve , reject and pending
+
+Features of react:-
+---> Vitual DOM    ----->One way data binding
+FOr comparison  react uses two doms one is old image and one is new and the algorithm is Diffing algorithm
+Diffeence between npm and npx?
+----. npm imp commands:-
+npm intstall, npm uninstall, npm update

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body>
+  <h1>Student Registration Form</h1>
+  <form>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </p>
+      <p>
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Academic Details</legend>
+      <p>
+        <label for="program">Program:</label>
+        <select id="program" name="program" required>
+          <option value="">Select Program</option>
+          <option value="B.Tech">B.Tech</option>
+          <option value="B.Sc">B.Sc</option>
+          <option value="B.A">B.A</option>
+          <option value="M.Tech">M.Tech</option>
+          <option value="M.Sc">M.Sc</option>
+          <option value="M.A">M.A</option>
+        </select>
+      </p>
+      <p>
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch" required>
+          <option value="">Select Branch</option>
+          <option value="CSE">CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="MECH">MECH</option>
+          <option value="CIVIL">CIVIL</option>
+        </select>
+      </p>
+      <p>
+        <label for="semester">Semester:</label>
+        <select id="semester" name="semester" required>
+          <option value="">Select Semester</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Additional Information</legend>
+      <p>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" id="sports" name="hobbies" value="Sports"> Sports
+        <input type="checkbox" id="music" name="hobbies" value="Music"> Music
+      </p>
+      <p>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male"> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female
+        <input type="radio" id="other" name="gender" value="Other"> Other
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Address</legend>
+      <p>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+      </p>
+    </fieldset>
+    <p>
+      <input type="submit" value="Register">
+    </p>
+  </form>
+</body>
+</html>
